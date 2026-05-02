@@ -40,8 +40,9 @@ CREATE TABLE terms (
 -- Classes
 CREATE TABLE classes (
     id SERIAL PRIMARY KEY,
-    name VARCHAR(100) NOT NULL, -- e.g., "Primary 3A", "Nursery 2B"
-    level VARCHAR(50) NOT NULL, -- e.g., "Creche", "Nursery", "Primary"
+    name VARCHAR(100) NOT NULL, -- e.g., "Nursery 1 Yellow", "Primary 3"
+    level VARCHAR(50) NOT NULL, -- e.g., "Creche", "Nursery 1", "Nursery 2", "Nursery 3", "Primary"
+    color VARCHAR(20), -- e.g., "Yellow", "Blue", "Green" (for nursery classes)
     capacity INTEGER DEFAULT 30,
     teacher_id INTEGER REFERENCES users(id),
     created_at TIMESTAMP DEFAULT NOW()
