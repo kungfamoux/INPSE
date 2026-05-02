@@ -1,7 +1,7 @@
 {
-  "name": "fine-edu-sphere-backend",
+  "name": "inpse-backend",
   "version": "1.0.0",
-  "description": "Backend API for Fine Edu Sphere Link School Management System",
+  "description": "Backend API for International Nursery and Primary School Enugu",
   "main": "server.js",
   "type": "module",
   "scripts": {
