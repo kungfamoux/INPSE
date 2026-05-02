@@ -19,7 +19,7 @@ services:
       - key: JWT_SECRET
         sync: false
       - key: FRONTEND_URL
-        value: https://yourdomain.com
+        value: https://inpse.vercel.app
     domains:
       - api.inpse.com
     autoDeploy: true

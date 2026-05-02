@@ -1,6 +1,6 @@
-# Fine Edu Sphere Link Backend
+# INPSE Backend
 
-Backend API server for the Fine Edu Sphere Link School Management System.
+Backend API server for the International Nursery and Primary School Enugu School Management System.
 
 ## 🚀 Getting Started
 
